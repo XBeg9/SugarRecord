@@ -30,10 +30,8 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "Realm" do |sp|
-    sp.dependency 'Realm'
+    sp.dependency 'RealmSwift'
     sp.dependency 'SugarRecord/Core'
     sp.source_files = ['library/Realm/**/*.{swift}']
   end
 end
-
-
